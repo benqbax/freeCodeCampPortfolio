@@ -141,16 +141,19 @@ header nav ul li:last-child a {
   width: 100%;
   height: 200px;
   margin-bottom: 40px;
-  border-radius: 5px;
-  background-color: #D0D3D4;
+  border-radius: 1px;
+  background: url("../img/app2.jpeg") no-repeat center;
+  background-size: 100% 200px;
 }
 
 #work .projects .column #lastbox {
-  background-color: #B3B6B7;
+  background: url("../img/app1.jpeg") no-repeat center;
+  background-size: 100% 200px;
 }
 
 #work .projects .column #middlebox {
-  background-color: #CACFD2;
+  background: url("../img/app3.jpeg") no-repeat center;
+  background-size: 100% 200px;
 }
 
 #contact {
