@@ -1,0 +1,201 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Playfair Display', serif;
+  position: relative;
+}
+
+.cf:before,
+.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 1040px;
+  padding: 0 10px;
+  max-width: 90%;
+}
+
+header {
+  position: fixed;
+  background-color: white;
+  z-index: 1;
+  top: 0;
+  width: 100%;
+  height: 120px;
+  padding: .3em 0;
+  border-bottom: 1px solid #D7DBDD;
+}
+
+header h1 {
+  float: left;
+  border: 1px solid #D7DBDD;
+  color: #515A5A;
+  padding: .4em .5em;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-family: 'Work Sans';
+}
+
+header nav {
+  float: right;
+}
+
+header nav ul li {
+  float: left;
+  list-style: none;
+  margin-top: 1.5em;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: black;
+  margin-right: 5em;
+  font-size: 1.2em;
+}
+
+header nav ul li a:hover {
+  color: #717D7E;
+}
+
+header nav ul li:last-child a {
+  margin-right: 2em;
+}
+
+.main {
+  margin-top: 120px;
+}
+
+#banner {
+  padding: 10em 0 10em 0;
+  text-align: center;
+  border-bottom: 1px solid #D7DBDD;
+}
+
+#banner h2 {
+  font-size: 3em;
+  margin: 0;
+}
+
+#banner h3 {
+  padding: 1em 0 2em 0;
+  border-bottom: 1px solid #D7DBDD;
+  width: 70%;
+  margin: 0 auto;
+}
+
+#banner p {
+  padding: 1em 0;
+}
+
+#banner .icons a {
+  margin-right: 4em;
+  color: black;
+}
+
+#banner .icons a i {
+  font-size: 3em;
+}
+
+#banner .icons a i:hover {
+  color: #515A5A;
+}
+
+#banner .icons a:last-child {
+  margin-right: 0;
+}
+
+#work {
+  padding: 5em 0 6em 0;
+  border-bottom: 1px solid #D7DBDD;
+}
+
+#work h3 {
+  text-align: center;
+  padding: 0 0 2.4em 0;
+  font-size: 2em;
+  margin: 0;
+}
+
+#work .projects {
+  padding-left: 50px;
+}
+
+#work .projects .column {
+  float: left;
+  width: 30%;
+  margin-right: 30px;
+}
+
+#work .projects .column .box {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  background-color: #D0D3D4;
+}
+
+#work .projects .column #lastbox {
+  background-color: #B3B6B7;
+}
+
+#work .projects .column #middlebox {
+  background-color: #CACFD2;
+}
+
+#contact {
+  padding: 6em 0 8em 0;
+}
+
+#contact h2 {
+  margin: 0;
+  padding: 0 0 3em 0;
+  text-align: center;
+}
+
+#contact .formbox {
+  margin-left: 25%;
+}
+
+#contact .formbox p {
+  margin: 0;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+#contact .formbox input {
+  width: 70%;
+  margin: 1em 0;
+  padding: .3em 0 .3em .5em;
+}
+
+#contact .formbox textarea {
+  width: 70%;
+  height: 100px;
+  resize: none;
+  padding: .3em 0 .3em .5em;
+  margin-bottom: 4em;
+}
+
+#contact .formbox input[type=submit] {
+  border: none;
+  width: 40%;
+  margin-left: 14%;
+  padding: 1em 0;
+}
+
+footer {
+  padding: 1.2em 0;
+  text-align: center;
+  border-top: 1px solid #D7DBDD;
+}
